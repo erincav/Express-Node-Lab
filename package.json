@@ -1,0 +1,12 @@
+{
+  "name": "nodeprojectfile",
+  "version": "0.0.1",
+  "description": "Node Introduction Lab(s)",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Erin Cavanagh",
+  "license": "ISC"
+}
