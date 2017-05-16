@@ -1,15 +1,10 @@
 var express = require('express');
 var app = express();
-///
-app.use(express.static(__dirname + '/public'));
-
-// var http = require('http');
 var randomArray = require('./random.js');
 
-//
-app.get('/', function (req, res) {
-  res.send('You made an Express Server');
-});
+
+app.use(express.static(__dirname + '/public'));
+
 
 app.get('/random-quotes', function (req, res) {
   res.send(randomArray.randomQuotes[Math.floor(Math.random() *

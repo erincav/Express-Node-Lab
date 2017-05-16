@@ -1,0 +1,16 @@
+.imageDiv{
+  margin:20% auto;
+  background-position:top;
+  background-size:cover;
+  background-repeat: no-repeat;
+  text-align:center;
+}
+
+.quoteDiv{
+  background-color: #e3e5e8;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px #888888;
+  padding: 10px 10px 25px 10px;
+  margin:10%;
+  text-align:center;
+}

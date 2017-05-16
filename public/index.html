@@ -2,11 +2,31 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Node Project</title>
+    <link rel="stylesheet" href="main.css">
+
+    <title>Random Quote Express Project</title>
   </head>
-  <body>
+  <body ng-app = "QuoteApp" ng-controller = "quoteController">
+
+<div class="quoteDiv">
+<h3> Daily Wisdom: </h3>
+{{quotes.data}}
+</div>
+
+<div class="imageDiv">
+  <img class="image1" src="images/meditation.png" alt="Meditation Cartoon">
+</div>
 
 
+<script src="lib/angular-route.min.js"></script>
+<script src="lib/angular.min.js"></script>
+<script src="app.js"></script>
+<script src="controller.js"></script>
+<script src="service.js"></script>
+<!-- <script src="express.js"></script>
+<script src="random.js"></script>
+<script src="script.js"></script>
+<script src="server.js"></script> -->
 
   </body>
 </html>
